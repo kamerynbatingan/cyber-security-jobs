@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: navy;
+    /*font-family: 'Quicksand', sans-serif;*/
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -19,6 +19,7 @@ h1 {
     margin: auto;
     background: #fff;
     line-height: 2.5em;
+    font-family: 'courier new', sans-serif;
 }
 
 main.wrapper {
@@ -27,23 +28,26 @@ main.wrapper {
 }
 
 p {
-    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    margin: 1em;
+    font-family: 'monaco', sans-serif;
 }
 
 h2,h3 {
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
+    font-family: 'monaco', sans-serif;
 }
 
 a {
-    color:darkcyan;
+    color:deepskyblue;
     text-decoration: none;
+    font-family: 'courier new', sans-serif;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: deepskyblue;
     text-decoration: none;
 }
 
